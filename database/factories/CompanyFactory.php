@@ -18,7 +18,8 @@ class CompanyFactory extends Factory
             'address' => $this->faker->streetAddress,
             'email' => $this->faker->companyEmail,
             'director' => $this->faker->name,
-            'city_id' => $this->faker->numberBetween(1, 7)
+            'city_id' => $this->faker->numberBetween(1, 7),
+            'company_type_id' => $this->faker->numberBetween(1, 4)
         ];
     }
 }
