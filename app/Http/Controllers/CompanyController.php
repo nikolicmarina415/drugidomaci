@@ -32,6 +32,7 @@ class CompanyController extends Controller
             return response()->json([
                 "id" => $company->id,
                 "address" => $company->address,
+                "name" => $company->name,
                 "email" => $company->email,
                 "director" => $company->director,
                 "city" => $company->city,
@@ -55,6 +56,7 @@ class CompanyController extends Controller
         return response()->json([
             "id" => $company->id,
             "address" => $company->address,
+            "name" => $company->name,
             "email" => $company->email,
             "director" => $company->director,
             "city" => $company->city,
@@ -76,6 +78,7 @@ class CompanyController extends Controller
             return response()->json([
                 "id" => $company->id,
                 "address" => $company->address,
+                "name" => $company->name,
                 "email" => $company->email,
                 "director" => $company->director,
                 "city" => $company->city,
